@@ -33,6 +33,8 @@ import Unsafe.Coerce
 
 import System.IO.Unsafe
 
+import Data.Word
+
 -- TODO: Remove
 instance Eq Box where
   a == b = unsafePerformIO $ areBoxesEqual a b
